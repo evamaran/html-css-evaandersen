@@ -153,7 +153,7 @@ form input {
 }
 
 .order-table-wrapper {
-	overflow-x: auto;
+	width: auto;
 	max-width: 100%;
 }
 
@@ -166,7 +166,7 @@ form input {
 .order-summary-table th,
 .order-summary-table td {
   font-size: 0.9rem;
-  word-break: break-word;
+  width: 100%;
   max-width: 100%;
   white-space: normal;
   padding: 6px;

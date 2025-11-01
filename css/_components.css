@@ -322,7 +322,10 @@
 
 .cart-table th,
 .cart-table td {
-  padding: 18px;
+  width: auto;
+  max-width: 100%;
+  white-space: normal;
+  padding: 12px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
