@@ -195,7 +195,8 @@ form input {
   width: 60px;
   max-width: 100%;
   height: auto;
-  flex-shrink: 0;
+  display: block;
+  margin-top: 0.25rem;
 }
 
 .order-summary-table td span {
