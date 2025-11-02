@@ -305,7 +305,7 @@
 }
 
 .cart-wrapper {
-  max-width: 100%;	
+  max-width: min(100%, 500px);	
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -408,7 +408,7 @@
 
 	.search-button i {
 		transform: translateY(-10px);
-}
+	}
 	
 	.featured {
 		grid-column: 3 / 11;
@@ -461,9 +461,15 @@
 		max-width: 60%;
 	}
 
+	.cart-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
+
 	.cart-item {
 		flex-direction: row;
 		justify-content: flex-start;
 		text-align: left;
-  }
+  	}
 }
